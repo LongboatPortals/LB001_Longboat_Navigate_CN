@@ -1,0 +1,18 @@
+:root {
+  --ux-color-white: #fff;
+  --ux-color-primary-90: #{color.adjust($primary-color, $lightness: 10%)};
+  --ux-color-primary-100: #{$primary-color};
+  --ux-color-primary-110: #{color.adjust($primary-color, $lightness: -10%)};
+  --ux-color-secondary-100: #{$secondary-color};
+  --ux-color-secondary-110: #{color.adjust($secondary-color, $lightness: -10%)};
+  --ux-color-tertiary-100: #{$tertiary-color};
+  --ux-color-tertiary-110: #{color.adjust($tertiary-color, $lightness: -10%)};
+
+  //buttons
+  //--ux-btn-color-disabled: #{#aeb8c0};
+  --ux-btn-size-medium-padding: 8px 12px;
+
+  //wistia videos
+  //--ux-video-box-shadow: -1px 1px 9px 2px #{color.adjust($primary-color, $lightness: 60%)};
+  //--ux-video-info-box-shadow: -1px 1px 9px 2px #{color.adjust($primary-color, $lightness: 60%)};
+}

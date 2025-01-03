@@ -1,0 +1,27 @@
+{
+    "name": "@pd-ui-master/components",
+    "version": "0.0.2",
+    "description": "",
+    "license": "MIT",
+    "type": "module",
+    "homepage": "{{ homepage }}",
+    "scripts": {
+        "serve": "npx backlight@latest serve 5UR3up9q7jLO64Bigppg --open"
+    },
+    "exports": {
+        ".": "./index.js"
+    },
+    "types": "index.d.ts",
+    "dependencies": {
+        "vue": "^3.2.25",
+        "vue-cookie-law": "^1.13.3",
+        "js-cookie": "^3.0.1",
+        "jsonc-simple-parser": "^2.2.1"
+    },
+    "devDependencies": {
+        "@divriots/dockit-core": "^0.9.1",
+        "@divriots/dockit-vue": "^0.0.23",
+        "@vue/test-utils": "^2.0.0-rc.17",
+        "prettier": "^2.3.2"
+    }
+}

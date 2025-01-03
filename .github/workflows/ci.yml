@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [ '*' ]
+    pull-requests: ['main']
+    paths-ignore: 
+      - 'coverage/**'
+      - 'devdist/**'
+      - 'dist/**'
+      - 'docs/**'
+jobs:
+  integration:
+    uses: ./.github/workflows/tests.yml
+    secrets: inherit
+    with:
+      lint: true
+      lock: true
+      build: '["prw", "cn", "es"]'

@@ -1,0 +1,35 @@
+{
+  "border": {
+    "radius": {
+      "small": {
+        "value": "0.125rem"
+      },
+      "medium": {
+        "value": "0.25rem"
+      },
+      "large": {
+        "value": "0.5rem"
+      },
+      "xlarge": {
+        "value": "1rem"
+      },
+      "circle": {
+        "value": "50%"
+      },
+      "pill": {
+        "value": "9999px"
+      }
+    },
+    "width": {
+      "thin": {
+        "value": "1px"
+      },
+      "medium": {
+        "value": "2px"
+      },
+      "thick": {
+        "value": "3px"
+      }
+    }
+  }
+}

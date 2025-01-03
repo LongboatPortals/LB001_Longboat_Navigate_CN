@@ -1,0 +1,21 @@
+{
+  "privacy-policy-link": {
+    "text-color": {
+      "default": {
+        "value": "{color.black.60}"
+      },
+      "visited": {
+        "value": "{color.black.60}"
+      },
+      "onhover": {
+        "value": "{color.black.60}"
+      },
+      "onactive": {
+        "value": "{color.black.60}"
+      },
+      "onfocus": {
+        "value": "{color.black.60}"
+      }
+    }
+  }
+}

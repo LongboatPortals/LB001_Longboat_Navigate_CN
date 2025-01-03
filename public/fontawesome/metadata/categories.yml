@@ -1,0 +1,62 @@
+---
+arrows:
+  icons:
+    - angle-down
+  label: Arrows
+buildings:
+  icons:
+    - house
+  label: Buildings
+business:
+  icons:
+    - envelope
+    - phone
+  label: Business
+communication:
+  icons:
+    - envelope
+    - phone
+  label: Communication
+editing:
+  icons:
+    - link
+    - xmark
+  label: Editing
+humanitarian:
+  icons:
+    - envelope
+  label: Humanitarian
+maps:
+  icons:
+    - house
+    - location-dot
+    - magnifying-glass
+    - phone
+  label: Maps
+mathematics:
+  icons:
+    - circle-xmark
+    - xmark
+  label: Mathematics
+social:
+  icons:
+    - envelope
+    - location-dot
+    - users
+  label: Social
+time:
+  icons:
+    - calendar-plus
+  label: Time
+travel-hotel:
+  icons:
+    - earth-americas
+  label: Travel + Hotel
+users-people:
+  icons:
+    - users
+  label: Users + People
+writing:
+  icons:
+    - envelope
+  label: Writing

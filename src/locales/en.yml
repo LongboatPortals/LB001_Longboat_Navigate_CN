@@ -1,0 +1,297 @@
+#=============================================================================
+# All Apps content: Login and Cookie Consent modules
+#=============================================================================
+
+login_site_title: "Login Page"
+login_welcome_title: "Welcome"
+login_welcome_text_html: "Please enter the password provided by your clinic."
+login_password: "Enter Password"
+login_select_language: "Select your language"
+login_button: "Get Started"
+password_error_message: "You have entered the incorrect password."
+    
+c_text: "This website would like to use third party cookies to analyze traffic. This analytics data will be anonymized and can’t be used to identify you."
+c_text_two: "For more information, please review our "
+c_privacy: "Privacy Policy."
+c_locale_code: "en"
+c_nocookie: "I do not accept cookies"
+c_accept: "Accept"
+
+
+#=============================================================================
+# Consent Navigator Content
+#=============================================================================
+cn.site_title: "Consent Navigator"
+
+cn.log_out_btn: "Log Out"
+cn.welcome_text_heading: "Thank you for your interest in the <b>Longboat</b> study."
+cn.welcome_text: "Please watch the videos below to learn more about clinical studies, taking part in the Longboat study, and informed consent."
+cn.welcome_text_alt: "Remember, if you have any questions or concerns about the study, you can contact your study doctor. They will be happy to help!"
+
+cn.video_one: "7fgcsih40i"
+cn.video_caption_one: "Introduction"
+cn.video_caption_one_text: "A short welcome to these informational videos. "
+cn.video_two: "d63l9aovps"
+cn.video_caption_two: "What is a Clinical Study?"
+cn.video_caption_two_text: "This video explains why clinical studies are so important."
+cn.video_three: "uxqv43li9r"
+cn.video_caption_three: "Study Overview"
+cn.video_caption_three_text: "Learn more about the Longboat study."
+cn.video_four: "5o8auhh3cl"
+cn.video_caption_four: "Your Participation"
+cn.video_caption_four_text: "Find out what you will need to do if you decide to join the Longboat study."
+cn.video_five: "86m508ezf8"
+cn.video_caption_five: "The Informed Consent Process"
+cn.video_caption_five_text: "This video provides an overview of the informed consent process. "
+
+cn.amd_video_one: "tbk6eulud4"
+cn.amd_video_two: "wl2xgl7c32"
+cn.amd_video_three: "odgnubwy4i"
+cn.amd_video_four: "3xi92dzcww"
+cn.amd_video_five: "9a7751od7y"
+
+cn.locale_prefix: en
+cn.c_privacy: "Privacy Policy."
+
+
+
+
+
+
+#=============================================================================
+# External Survey Content
+#=============================================================================
+survey.site_title: "Longboat Patient Survey"
+
+survey.ats_banner_text: "Welcome to the Acme Patient Survey Website"
+survey.ats_banner_subtext: "The responses you provide will be anonymous to the sponsor (Longboat) and to your study site. The information will be used to improve future clinical studies for patients like you. Thank you for taking the time to provide your feedback. – Acme"
+survey.ats_btn_label: "Begin Survey"
+
+survey.progress_note: "Questions Answered: "
+
+survey.questions_intro: "Please select one response for each item."
+survey.question1: "I understand the treatment process in this study (for example: when and how I will receive study treatment)."
+survey.question2: "The information given to me before I joined the study was everything I wanted to know (for example: visits and procedures, time commitment, who to contact with questions)."
+survey.question3: "The benefits and the risks of study participation as well as any details on side effects given to me before I joined the study were clearly explained to me."
+survey.question4: "The information given to me before I joined the study was easy for me to understand (for example: visits and procedures, time commitment, who to contact with questions)."
+survey.question5: "I felt comfortable that I could ask any questions before I joined the study and during study visits."
+survey.question6: "I am satisfied with the answers I have received to my questions."
+survey.question7: "I discussed the study with my partner/family/friends."
+survey.question8: "Overall, I am satisfied with the hospital in which I am treated (for example: comfort and privacy of treatment area, waiting area, parking, ease of access to the site)."
+survey.question9: "My study visits have been well organized."
+survey.question10: "My study visits are scheduled at a convenient time for me and take my personal wishes into account."
+survey.question11: "The study staff treats me with respect."
+
+
+survey.answer_one: "Strongly disagree"
+survey.answer_two: "Disagree"
+survey.answer_three: "Neither agree or disagree"
+survey.answer_four: "Agree"
+survey.answer_five: "Strongly agree"
+survey.answer_six: "Yes"
+survey.answer_seven: "No"
+survey.answer_eight: "Somewhat agree"
+survey.answer_nine: "Very acceptable"
+survey.answer_ten: "Somewhat acceptable"
+survey.answer_eleven: "Unacceptable"
+survey.answer_twelve: "Very unacceptable"
+survey.answer_thirteen: "Did not use"
+survey.answer_fourteen: "Very satisfied"
+survey.answer_fifteen: "Satisfied"
+survey.answer_fifteen_two: "Somewhat satisfied"
+survey.answer_sixteen: "Unsatisfied"
+survey.answer_seventeen: "Very unsatisfied"
+survey.answer_eighteen: "Not applicable"
+
+survey.que1_opt1: "Number of visits"
+survey.que1_opt2: "Types of procedures"
+survey.que1_opt3: "Time commitment"
+survey.que1_opt4: "Who to contact with questions"
+
+survey.que2_opt1: "The amount of time each study visit took"
+survey.que2_opt2: "How often you had to come in for study visits"
+survey.que2_opt3: "The number of tests at each study visit"
+survey.que2_opt4: "The overall burden/other"
+
+survey.submit_note: "Please note: all questions must be answered"
+
+survey.clear_selection: "Clear Answer"
+
+survey.check_modal_text: "To submit your answers, please confirm that you have provided answers to all the questions you wish to answer"
+
+survey.fail_modal_header: "Sorry"
+survey.fail_modal_text_html: "Your responses could not be submitted. Please wait a minute and try again. If you continue to experience problems, please contact <a href='mailto:support&#64;longboat.com'>support&#64;longboat.com</a>"
+
+survey.success_modal_header: "Thank You"
+survey.success_modal_text: "Your responses have been submitted."
+
+survey.close: "Close"
+
+survey.submit: "Submit"
+survey.confirm: "Confirm"
+survey.cancel: "Cancel"
+
+
+
+
+
+#=============================================================================
+# Patient Recruitment Website Content
+#=============================================================================
+prw.site_title: "Longboat Patient Recruitment"
+
+prw.menu: "Menu"
+prw.nav_one: "About Study"
+prw.nav_two: "The Study Journey"
+prw.nav_three: "Study Visits"
+prw.nav_four: "Am I Eligible"
+prw.nav_five: "Find a Study Center"
+prw.nav_six: "FAQs"
+prw.nav_seven: "Share This Study"
+
+prw.cta-btn: "Am I Eligible?"
+
+prw.ats_banner_text: "Welcome to the Acme Clinical Research Study"
+prw.ats_banner_subtext: "Lorem ipsum dolor sit amet, consectetur adipiscing elnunc quam"
+prw.ats_btn_label: "Find out if you are eligible"
+
+prw.abouthead: "What is Navigate?"
+prw.about1: "Navigate is a Phase 3 clinical study to examine how safe and eﬀective a drug called Dazoxumab is in treating patients with non-small cell lung cancer"
+prw.about2: "The study is taking place in the US and Canada."
+prw.about3: "During Navigate, patients will receive either Dazoxumab or a placebo. A placebo does not contain any medically active ingredients. The study drug each patient receives will be decided at random by a computer."
+prw.about4: "If you qualify and are selected for Navigate, your involvement will last up to 18 months. During this time, you will be expected to take the study drug as directed by the study doctor and assist the study doctor and their team by participating in study assessments."
+prw.about5: "Am I Eligible"
+
+prw.info_sites: "28"
+prw.info_sites_label: "sites"
+prw.info_patients: "120"
+prw.info_patients_label: "patients"
+prw.info_countries: "20"
+prw.info_countries_label: "countries"
+
+prw.timeline_head: "Study Timeline"
+prw.timeline_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.timeline_stage1: "Screening"
+prw.timeline_stage1_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.timeline_stage2: "Treatment"
+prw.timeline_stage2_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.timeline_stage3: "Follow-Up"
+prw.timeline_stage3_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.find_a_site: "Locations"
+prw.find_a_site_p_html: "Navigate is taking place at 50 locations across<br /> the United States and Canada."
+prw.find_a_site_input_placeholder: "Enter a location"
+prw.find_a_site_btn: "Find"
+
+prw.smap_head: "Find a Study Center Near You"
+prw.smap_p: "Enter a location/address to search for a nearby study center."
+prw.smap_alert: "Alert"
+prw.smap_alert_p: "Your search did not return any result."
+prw.gmap_locale: "en"
+prw.gmap_consent_text: "This feature uses Google Maps. If you enable the map, Google may collect some personal data about you, such as your location and information about your browser and device. Please see <a href='https://policies.google.com/privacy' target='_blank'  aria-label='Opens Google Privacy policy for Maps'>Google's Privacy Policy</a> for more information."
+prw.gmap_consent_button: "Enable Map"
+
+prw.faq_head: "FAQs"
+prw.faq_intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt aliqua. "
+
+prw.faq_search_placeholder: "Search FAQs"
+prw.faq_search_button: "Search"
+prw.faq_search_no_results: "No results found"
+prw.faq_view_all: "Open all FAQs"
+prw.faq_close_all: "Close all FAQs"
+
+prw.faq1: "What are clinical research studies?"
+prw.faq1_a: "Clinical research studies are scientific investigations that are conducted to find out if a new treatment is safe and effective for people. These studies are conducted to determine whether new drugs or treatments are better than those that are currently available. Clinical research studies are also conducted to find new ways to prevent, detect, or treat diseases."
+
+prw.faq2: "Who is involved in clinical research studies?"
+prw.faq2_a: "Clinical research studies involve a team of healthcare professionals, including doctors, nurses, and other healthcare providers. The team works together to ensure that the study is conducted safely and ethically. Patients who participate in clinical research studies are also an important part of the team. They help to determine whether the new treatment is safe and effective."
+
+prw.faq3: "For how long will I take part in this study?"
+prw.faq3_a: "If you qualify and are selected for Navigate, your involvement will last up to 18 months. During this time, you will be expected to take the study drug as directed by the study doctor and assist the study doctor and their team by participating in study assessments."
+
+prw.faq4: "What happens if I leave the study?"
+prw.faq4_a: "If you decide to leave the study before it is completed, you should inform your study doctor as soon as possible. Your study doctor will discuss the reasons for leaving the study with you and provide you with any necessary follow-up care. Leaving the study early will not affect the quality of care you receive from your study doctor."
+
+prw.faq5: "What about side effects?"
+prw.faq5_a: "All medications, including those used in clinical research studies, can cause side effects. The study doctor will discuss the potential side effects of the study drug with you before you decide to participate in the study. If you experience any side effects during the study, you should inform your study doctor as soon as possible. Your study doctor will provide you with any necessary follow-up care."
+
+prw.faq6: "What are the benefits of participating in a clinical research study?"
+prw.faq6_a: "Participating in a clinical research study can provide you with access to new treatments that are not yet available to the general public. These treatments may be more effective than those that are currently available. By participating in a clinical research study, you can also help to advance medical knowledge and improve the care of patients in the future."
+
+prw.faq7: "What are the risks of participating in a clinical research study?"
+prw.faq7_a: "Participating in a clinical research study involves some risks. The study doctor will discuss the potential risks of the study with you before you decide to participate. These risks may include side effects from the study drug, discomfort from study procedures, and the inconvenience of study visits. If you experience any side effects or other problems during the study, you should inform your study doctor as soon as possible."
+
+
+prw.elig_head: "Am I <span class='txt-color'>Eligible?</span>"
+prw.elig_head_p: "Please awnser the following questions -Then click submit Clicking submit does not mean you agree to partcipate in the study. All questions must be awnsered."
+prw.question1: "Are you at least 18 years of age?"
+prw.question2: "Have you previously been diagnosed with cancer?"
+prw.question3: "Are you currently undergoing chemotherapy or radiotherapy treatment?"
+prw.question4: "Have you previously been diagnosed with any other type of cancer?"
+prw.question5: "Are you pregnant or trying to become pregnant within the next 12 months?"
+prw.answerd_label: "Answered"
+prw.check_elig: "Check Eligibility"
+
+prw.not_eligible: "You are not eligible"
+prw.not_eligible_desc: "Based on your answers, your child is currently not eligible for the study. If your answers to any of these questions change in the future, please check back again to see if your child is eligible. Thank you for your interest in this study."
+prw.ok: "OK"
+prw.close: "Close"
+
+prw.pc_heading: "You may be eligible"
+prw.pc_intro_text: "Based on the answers you have provided, you are potentially eligible for this study. If you would like to be contacted about this study, please select your nearest study site and enter your contact details."
+prw.pc_form_title1: "Your Contact Details"
+prw.pc_form_title2: "Select a Study Site"
+prw.pc_siteSelectInstruction: "Please select your nearest study center using the map or list. Study centers will be added to the map/list when they begin enrolling participants. If no study center is enrolling participants in your location at the moment, please check back later."
+prw.pc_name: "Name"
+prw.pc_name_placeholder: "Enter name"
+prw.pc_name_error: "Please enter your name."
+prw.pc_email: "Email address <span style='color:red'>(optional)</span>"
+prw.pc_email_placeholder: "Enter email address"
+prw.pc_email_error: "Please enter your email address."
+prw.pc_tel: "Telephone number"
+prw.pc_tel_placeholder: "Enter telephone number"
+prw.pc_tel_error: "Please enter your telephone number."
+prw.pc_location: "Select your location"
+prw.pc_all_sites: "All Sites"
+prw.pc_city: "Select nearest city"
+prw.pc_site: "Select your nearest site"
+prw.pc_choose_site: "Select this site"
+prw.pc_site_selected: "Selected site"
+prw.pc_search_placeholder: "Search by site name or location"
+prw.pc_dropdown_error: "Please select from the dropdown list."
+prw.pc_site_placeholder: ""
+prw.pc_preferred_contact_time: "Select your preferred contact time"
+prw.pc_preferred_contact_time_error: "Please select your preferred contact time"
+prw.pc_morning: "Morning"
+prw.pc_afternoon: "Afternoon"
+prw.pc_evening: "Evening"
+prw.pc_mapView_label: "Show Map"
+prw.pc_listView_label: "Show List"
+prw.pc_change_selected_site: "Back to Site Selection"
+prw.pc_back_to_step_1: "Update Selected Site"
+prw.pc_selected_site_title: "Your Selected Site"
+prw.pc_siteSelectedInstruction: "You have selected the following study site:"
+prw.pre-screening_consent: "I agree to this data being processed by Longboat by Advarra as per their <a href='https://app.longboat.com/gateway/privacy?locale=en' target='_blank'aria-label='Opens New page for Privacy policy'>Privacy Policy</a>."
+prw.pc_consent_text: "By submitting this form, I consent to: <ul><li>Being contacted by the study site selected in relation to possibly taking part in this study.</li><li>My personal data (i.e., contact information and responses to the eligibility survey) being combined with additional anonymized medical history data that the clinic may enter into the Advarra system, to further assess my potential eligibility.</li><li>This entire dataset, including my personal and medical history data (if provided by your clinical site), being processed by Advarra as outlined in their <a href='https://app.longboat.com/gateway/privacy?locale=en' target='_blank'>Privacy Policy</a>.</li></ul>"
+prw.pc_consent_agree: "I agree"
+prw.pc_consent_error: "Please tick the box above to confirm that you consent to being contacted by the selected study site."
+prw.pc_submit: "Submit"
+prw.yes_a: "Yes"
+prw.no_a: "No"
+prw.maybe_a: "N/A"
+prw.dk_a: "Don't Know"
+prw.pc_errorh1: "Error"
+prw.pc_errorp: "There has been an error submitting your information. Please resubmit the form."
+prw.pc_errorp1: "If this issue persists, please contact <a href='https://support.longboat.com/hc/en-us/requests/new' target='_blank'>Longboat Support</a> and provide them with the website address the error is occurring on."
+prw.pc_success_h: "Thank you"
+prw.pc_success: "Thank you. Your information has been sent."
+prw.eligible_btn: "Submit"
+
+prw.share_head: "Share This Study"
+prw.share_subhead: "Copy and paste the link below to tell a friend or family member about Longboat."
+prw.share_link: "www.urlhere.com"
+prw.share_copy: "Copy"
+prw.shared_copy: "Copied"

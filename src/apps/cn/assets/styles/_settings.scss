@@ -1,0 +1,37 @@
+
+@import "@/assets/styles/colors.scss";
+
+/*-- ==========================================================================
+                                    CONSENT PAGE
+========================================================================== */
+
+// consent page background 
+@mixin body-wrap-bg {
+    background: white; // rgba(189, 69, 16, 0.04);
+}
+
+@mixin consent-page__logo {
+    max-width: 55%;
+    margin-bottom: 20px;
+    @media only screen and (min-width: 1000px) {
+        max-width: 60%;
+        min-width: 25%;
+        margin-bottom: 0;
+    }
+}
+
+@mixin banner__text-wrapper {
+    @media only screen and (min-width: 1000px) {
+        background: $accent-color;
+        // OR
+        //background-image: url('../assets/images/bg.jpg');
+        //background-repeat: no-repeat;
+        //background-size: cover;
+        .banner__text-heading,
+        .banner__text {
+            color: $primary-color;
+           // color: white
+        }
+    }
+}
+

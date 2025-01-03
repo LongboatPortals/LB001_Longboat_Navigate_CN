@@ -1,0 +1,255 @@
+login_site_title: "Comenzar"
+login_welcome_title: "Te damos la bienvenida"
+login_welcome_text_html: "Introduce la contraseña proporcionada por tu centro."
+login_password: "Introduce la contraseña"
+login_select_language: "Selecciona tu idioma"
+login_button: "Empezar"
+password_error_message: "Has introducido una contraseña incorrecta."
+log_out_btn: "Cerrar sesión"
+
+c_text: "A este sitio web le gustaría utilizar cookies de terceros para analizar el tráfico. Estos datos analíticos se anonimizarán y no podrán utilizarse para identificarle. "
+c_text_two: "Para obtener más información, consulte nuestra "
+c_locale_code: "es"
+c_nocookie: "No acepto el uso de cookies"
+c_accept: "Aceptar"
+c_privacy: "Política de privacidad"
+
+
+#=============================================================================
+# Consent Navigator Content
+#=============================================================================
+cn.site_title: "Navegador para el consentimiento"
+
+cn.log_out_btn: "Cerrar sesión"
+cn.welcome_text_heading: "Gracias por su interés en el ensayo <b>Longboat</b>."
+cn.welcome_text: "Gracias por su interés en el estudio Longboat. Vea los vídeos siguientes para obtener más información sobre la investigación clínica, la participación en el estudio Longboat y el consentimiento informado/asentimiento."
+cn.welcome_text_alt: "Recuerde que si tiene alguna duda o preocupación sobre el estudio, puede ponerse en contacto con su médico del estudio o con el personal del estudio. Estarán encantados de ayudarle."
+
+cn.video_one: "mtz6lt5jvp"
+cn.video_caption_one: "Introducción"
+cn.video_caption_one_text: "Una pequeña bienvenida a estos vídeos informativos. "
+cn.video_two: "swtft1u3p5"
+cn.video_caption_two: "Acerca de los estudios clínicos"
+cn.video_caption_two_text: "Este vídeo explica por qué los ensayos clínicos son tan importantes."
+cn.video_three: "swtft1u3p5"
+cn.video_caption_three: "Descripción general del estudio"
+cn.video_caption_three_text: "Este vídeo ofrece una visión general del ensayo."
+cn.video_four: "swtft1u3p5"
+cn.video_caption_four: "Participación en el estudio"
+cn.video_caption_four_text: "Este vídeo describe qué implica la participación en el ensayo."
+cn.video_five: "swtft1u3p5"
+cn.video_caption_five: "Consentimiento informado/asentimiento"
+cn.video_caption_five_text: "Este vídeo ofrece una visión general del proceso de consentimiento informado."
+
+cn.locale_prefix: es
+
+cn.c_privacy: "Política de privacidad"
+
+
+
+
+#=============================================================================
+# External Survey Content
+#=============================================================================
+survey:
+  site_title: "Encuesta para pacientes de Longboat"
+
+  ats_banner_text: "Gracias por su participación."
+  ats_banner_subtext: "Sus experiencias en este estudio son importantes para nosotros y nos gustaría escuchar sobre ellas. Sus respuestas nos ayudarán a mejorar estudios futuros. No hay respuestas correctas o incorrectas, y completar el cuestionario le llevará, aproximadamente, de 5 a 10 minutos. Sus respuestas se mantendrán anónimas y no afectarán su participación en este estudio."
+  ats_btn_label: "Ir al cuestionario"
+
+  progress_note: "Preguntas respondidas: "
+
+  questions_intro: "Seleccione una respuesta para cada punto"
+  question1: "Comprendo el proceso del tratamiento de este estudio (por ejemplo: cuándo y cómo recibiré el tratamiento del estudio)."
+  question2: "La información que me dieron antes de que ingresara en el estudio incluyó todo lo que deseaba saber (por ejemplo: visitas y procedimientos, compromiso de tiempo, con quién comunicarse por preguntas)."
+  question3: "Antes de ingresar en el estudio, me explicaron con claridad los beneficios y los riesgos de la participación en el estudio, así como también los detalles sobre los efectos secundarios."
+  question4: "La información que me dieron antes de que ingresara en el estudio me resultó fácil de entender (por ejemplo: visitas y procedimientos, compromiso de tiempo, con quién comunicarse por preguntas)."
+  question5: "Me sentí cómodo para hacer preguntas antes del ingreso en el estudio y durante las visitas del estudio."
+  question6: "Estoy satisfecho con las respuestas que recibí a mis preguntas."
+  question7: "He analizado el estudio con mi pareja/familiares/amigos."
+  question8: "En general, estoy satisfecho con el hospital en el que me estoy tratando (por ejemplo: comodidad y privacidad del área de tratamiento, el área de espera, el estacionamiento, la facilidad de acceso al centro)."
+  question9: "Mis visitas del estudio han estado bien organizadas."
+  question10: "Las visitas del estudio se programan en un momento conveniente para mí y tienen en cuenta mis deseos personales."
+  question11: "El personal del estudio me trata con respeto."
+  question12: "El tiempo que lleva cada visita me resulta aceptable."
+  question13: "Fue fácil comunicarse con mi equipo del estudio fuera de las visitas del estudio cuando lo necesité (por ejemplo: para hacer preguntas o en caso de emergencia)."
+  question14: "El efecto que tiene el estudio sobre mis actividades diarias es aceptable (por ejemplo: tareas del hogar, compromisos de trabajo, comer)."
+  question15: "Me mantienen informado de los resultados de mis pruebas médicas realizadas durante el estudio, incluso durante la selección (por ejemplo: análisis de sangre, exámenes por imágenes, etc.)."
+  question16: "Me informaron adecuadamente sobre cómo usar la plataforma de este estudio (aplicación Longboat)."
+  question17: "Estoy satisfecho con el uso de la plataforma del estudio (aplicación Longboat) como parte del ensayo."
+  question18: "Creo que la plataforma del estudio (aplicación Longboat) fue fácil de usar."
+
+  answer_one: "Totalmente en desacuerdo"
+  answer_two: "En desacuerdo"
+  answer_three: "Ni de acuerdo ni en desacuerdo"
+  answer_four: "De acuerdo"
+  answer_five: "Totalmente de acuerdo"
+  answer_six: "Sí"
+  answer_seven: "No"
+  answer_eight: "Más o menos de acuerdo"
+  answer_nine: "Muy aceptable"
+  answer_ten: "Algo aceptable"
+  answer_eleven: "Inaceptable"
+  answer_twelve: "Muy inaceptable"
+  answer_thirteen: "No lo usé"
+  answer_fourteen: "Muy satisfecho"
+  answer_fifteen: "Satisfecho"
+  answer_fifteen_two: "Algo satisfecho"
+  answer_sixteen: "Insatisfecho"
+  answer_seventeen: "Muy insatisfecho"
+  answer_eighteen: "No aplicable"
+
+
+  submit_note: "Tenga en cuenta: todas las preguntas deben ser respondidas"
+
+  clear_selection: "Borrar respuesta"
+
+  check_modal_text: "Para enviar sus respuestas, confirme que ha proporcionado respuestas a todas las preguntas que desea responder."
+
+  fail_modal_header: "Lo sentimos"
+  fail_modal_text_html: "Sus respuestas no pudieron enviarse. Por favor, espere un minuto e inténtelo de nuevo. Si continúa experimentando problemas, póngase en contacto con <a href='mailto:support&#64;longboat.com'>support&#64;longboat.com</a>"
+ 
+
+  success_modal_header: "Gracias"
+  success_modal_text: "Sus respuestas se enviaron."
+
+  close: "Cerrar"
+
+  submit: "Enviar"
+  confirm: "Confirmar"
+  cancel: "Cancelar"
+
+  footer_link_one: "Política de privacidad"
+
+
+
+
+
+
+#=============================================================================
+# Patient Recruitment Website Content
+#=============================================================================
+prw.site_title: "Reclutamiento de Pacientes Longboat"
+
+prw.menu: "Menú"
+prw.nav_one: "Acerca del Estudio"
+prw.nav_two: "El Viaje del Estudio"
+prw.nav_three: "Visitas del Estudio"
+prw.nav_four: "¿Soy Elegible?"
+prw.nav_five: "Encuentra un Centro de Estudio"
+prw.nav_six: "Preguntas Frecuentes"
+prw.nav_seven: "Comparte Este Estudio"
+
+prw.ats_banner_text: "Bienvenido al Estudio de Investigación Clínica Acme"
+prw.ats_banner_subtext: "Lorem ipsum dolor sit amet, consectetur adipiscing elnunc quam"
+prw.ats_btn_label: "Averigua si eres elegible"
+
+prw.abouthead: "¿Qué es Navigate?"
+prw.about1: "Navigate es un estudio clínico de Fase 3 para examinar cuán seguro y efectivo es un medicamento llamado Dazoxumab en el tratamiento de pacientes con cáncer de pulmón de células no pequeñas"
+prw.about2: "El estudio se está llevando a cabo en EE. UU. y Canadá."
+prw.about3: "Durante Navigate, los pacientes recibirán Dazoxumab o un placebo. Un placebo no contiene ingredientes médicamente activos. El medicamento del estudio que cada paciente recibe será decidido al azar por una computadora."
+prw.about4: "Si calificas y eres seleccionado para Navigate, tu participación durará hasta 18 meses. Durante este tiempo, se espera que tomes el medicamento del estudio según lo dirigido por el doctor del estudio y asistas al doctor del estudio y a su equipo participando en las evaluaciones del estudio."
+prw.about5: "¿Soy Elegible?"
+
+prw.info_sites: "28"
+prw.info_sites_label: "sitios"
+prw.info_patients: "120"
+prw.info_patients_label: "pacientes"
+prw.info_countries: "20"
+prw.info_countries_label: "países"
+
+prw.timeline_head: "Cronograma del Estudio"
+prw.timeline_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.timeline_stage1: "Evaluación"
+prw.timeline_stage1_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.timeline_stage2: "Tratamiento"
+prw.timeline_stage2_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.timeline_stage3: "Seguimiento"
+prw.timeline_stage3_p: "Quia, eveniet, aliquid, neque molestiae, laudantium necessitatibus fugit quos itaque omnis sequi dicta eaque. Laboriosam, repellat."
+
+prw.find_a_site: "Ubicaciones"
+prw.find_a_site_p_html: "Navigate se está llevando a cabo en 50 ubicaciones a lo largo de<br /> Estados Unidos y Canadá."
+prw.find_a_site_input_placeholder: "Ingresa una ubicación"
+prw.find_a_site_btn: "Buscar"
+
+prw.smap_head: "Encuentra un Centro de Estudio Cerca de Ti"
+prw.smap_p: "Ingresa una ubicación/dirección para buscar un centro de estudio cercano."
+prw.smap_alert: "Alerta"
+prw.smap_alert_p: "Tu búsqueda no arrojó ningún resultado."
+prw.gmap_locale: "es"
+prw.gmap_consent_text: "Esta función utiliza Google Maps. Si habilitas el mapa, Google puede recopilar algunos datos personales sobre ti, como tu ubicación e información sobre tu navegador y dispositivo. Por favor, consulta la <a href='https://policies.google.com/privacy' target='_blank'>Política de Privacidad de Google</a> para más información."
+prw.gmap_consent_button: "Habilitar Mapa"
+
+prw.faq_head: "Preguntas Frecuentes"
+prw.faq_intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt aliqua. "
+prw.faq1: "PreguntaFrecuenteUno"
+prw.faq1_a: "RespuestaFrecuenteUno"
+
+prw.faq2: "PreguntaFrecuenteDos"
+prw.faq2_a: "RespuestaFrecuenteDos"
+
+prw.faq3: "PreguntaFrecuenteTres"
+prw.faq3_a: "RespuestaFrecuenteTres"
+
+prw.faq4: "PreguntaFrecuenteCuatro"
+prw.faq4_a: "RespuestaFrecuenteCuatro"
+
+prw.faq5: "PreguntaFrecuenteCinco"
+prw.faq5_a: "RespuestaFrecuenteCinco"
+
+prw.elig_head: "¿Soy <span class='txt-color'>Elegible?</span>"
+prw.elig_head_p: "Por favor, responde las siguientes preguntas - Luego haz clic en enviar. Hacer clic en enviar no significa que aceptas participar en el estudio. Todas las preguntas deben ser respondidas."
+prw.question1: "¿Tienes al menos 18 años de edad?"
+prw.question2: "¿Te han diagnosticado cáncer previamente?"
+prw.question3: "¿Estás actualmente recibiendo tratamiento de quimioterapia o radioterapia?"
+prw.question4: "¿Te han diagnosticado previamente con algún otro tipo de cáncer?"
+prw.question5: "¿Estás embarazada o intentas quedar embarazada en los próximos 12 meses?"
+
+prw.check_elig: "Verificar Elegibilidad"
+
+prw.not_eligible: "No eres elegible"
+prw.not_eligible_desc: "Basado en tus respuestas, actualmente no eres elegible para el estudio. Si tus respuestas a cualquiera de estas preguntas cambian en el futuro, por favor vuelve a verificar para ver si eres elegible. Gracias por tu interés en este estudio."
+prw.ok: "OK"
+
+prw.pc_heading: "Podrías ser elegible"
+prw.pc_intro_text: "Basado en tus respuestas, podrías ser potencialmente elegible para el estudio. Si deseas ser contactado por tu sitio más cercano en relación a este estudio, por favor ingresa tus datos de contacto a continuación. Completa todos los campos."
+prw.pc_name: "Nombre"
+prw.pc_name_placeholder: "Ingresa tu nombre"
+prw.pc_name_error: "Por favor, ingresa tu nombre."
+prw.pc_email: "Dirección de correo electrónico <span style='color:red'>(opcional)</span>"
+prw.pc_email_placeholder: "Ingresa tu dirección de correo electrónico"
+prw.pc_email_error: "Por favor, ingresa tu dirección de correo electrónico."
+prw.pc_tel: "Número de teléfono"
+prw.pc_tel_placeholder: "Ingresa tu número de teléfono"
+prw.pc_tel_error: "Por favor, ingresa tu número de teléfono."
+prw.pc_location: "Selecciona tu ubicación"
+prw.pc_city: "Selecciona la ciudad más cercana"
+prw.pc_site: "Elige tu sitio más cercano"
+prw.pc_dropdown_error: "Por favor, elige de la lista desplegable."
+prw.pc_site_placeholder: ""
+prw.pc_preferred_contact_time: "Selecciona tu horario de contacto preferido"
+prw.pc_morning: "Mañana"
+prw.pc_afternoon: "Tarde"
+prw.pc_evening: "Noche"
+prw.pre-screening_consent: "Acepto que estos datos sean procesados por Longboat by Advarra según su <a href='https://app.longboat.com/gateway/privacy?locale=es' target='_blank'>Política de Privacidad</a>."
+prw.pc_consent: "Doy mi consentimiento para ser contactado por el sitio de estudio seleccionado en relación con la posible participación en este estudio, y para que mis datos sean procesados por Longboat como se describe en su <a href='https://app.longboat.com/gateway/privacy?locale=en'>Política de Privacidad</a>."
+prw.pc_consent_error: "Por favor, marca la casilla anterior para confirmar que consientes ser contactado por el sitio de estudio seleccionado."
+prw.pc_submit: "Enviar"
+prw.yes_a: "Sí"
+prw.no_a: "No"
+prw.maybe_a: "N/A"
+prw.dk_a: "No sé"
+prw.pc_errorh1: "Error"
+prw.pc_errorp: "Ha habido un error al enviar tu información. Por favor, vuelve a enviar el formulario."
+prw.pc_success_h: "Gracias"
+prw.pc_success: "Gracias. Tu información ha sido enviada."
+prw.eligible_btn: "Enviar"
+
+prw.share_head: "Comparte Este Estudio"
+prw.share_subhead: "Copia y pega el enlace a continuación para contarle a un amigo o familiar sobre Longboat."
+prw.share_link: "www.urlhere.com"
+prw.share_copy: "Copiar"

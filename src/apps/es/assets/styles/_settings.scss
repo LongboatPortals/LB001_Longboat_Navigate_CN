@@ -1,0 +1,48 @@
+@use "sass:color";
+@import "@/assets/styles/colors.scss";
+
+/*-- ==========================================================================
+                                    SURVEY PAGE
+========================================================================== */
+
+
+/* ++++++++++++ Menu Section ++++++++++++++ */
+
+$menu-bg-color: #fff;
+
+/* ++++++++++++ Banner Section ++++++++++++++ */
+
+$banner-bg-color: color.adjust($gray, $lightness: -3%);
+$banner-heading-text-color: $primary-color;
+$banner-body-text-color: $text-color;
+$banner-btn-color: $accent-color;
+$ellipsis-bg-color: $accenttwo-color;
+$circle-bg-color: #007ea3;
+$rect-bg-color: $accenttwo-color;
+
+/* ++++++++++++ Survey ++++++++++++++ */
+
+$survey-section-bg-color: $gray;
+$survey-heading-text-color: $primary-color;
+$survey-heading-hr-color: $primary-color;
+$survey-question-number-border-color: $primary-color;
+$survey-question-number-border-color--isAnswered: $primary-color;
+$survey-question-number-bg-color: #fff;
+$survey-question-number-bg-color--isAnswered: $primary-color;
+$survey-question-number-text-color: $primary-color;
+$survey-question-number-text-color--isAnswered: white;
+$survey-question-divider-color: $gray;
+$question-select-onhover-color: color.adjust($primary-color, $lightness: 65%);
+$question-select-button-border-color: $primary-color;
+$question-selected-button-dot-color: $primary-color;
+$survey-progress-wrapper-bg-color: $primary-color;
+$survey-progress-wrapper-top-border-color: none;
+$onfixed-survey-progress-wrapper-bg-color: $primary-color;
+$onfixed-survey-progress-wrapper-top-border-color: none;
+$survey-progress-bg-color: $primary-color;
+$survey-progress-border-color: white;
+$survey-porgress-indicator-bg-color: white;
+$disabled-submit-btn-color: #a8b1bd;
+$disabled-submit-btn-text-color: #222;
+$submit-btn-color: $accent-color;
+$submit-btn-text-color: #222;

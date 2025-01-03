@@ -1,0 +1,18 @@
+---
+chain:
+  name: link
+close:
+  name: xmark
+globe:
+  name: earth-americas
+group:
+  name: users
+home:
+  name: house
+map-marker:
+  name: location-dot
+remove:
+  name: xmark
+times-circle-o:
+  name: circle-xmark
+  prefix: far

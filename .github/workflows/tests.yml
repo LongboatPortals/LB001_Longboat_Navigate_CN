@@ -1,0 +1,122 @@
+name: tests
+on:
+  workflow_call:
+    inputs: 
+      lint:
+        default: false
+        required: false
+        type: boolean
+      lock:
+        default: false
+        required: false
+        type: boolean
+      build:
+        required: true
+        type: string
+jobs:
+  lint_and_build:
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ matrix.node.experimental }}
+    strategy:
+      matrix:
+        node: 
+          - index: 1
+            version: 16
+            experimental: false
+        build: ${{ fromJson(inputs.build) }}
+    name: lint-and-build ${{ matrix.node.index }}
+    permissions:
+      id-token: write
+      checks: write
+      contents: read
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v4
+    - name: Check commit message
+      id: check_message
+      run: |
+        COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+        echo "Commit message: $COMMIT_MESSAGE"
+        if [[ "$COMMIT_MESSAGE" =~ "--skip_tests" ]]; then
+          echo "skip_tests=true" >> $GITHUB_ENV
+        fi
+        if [[ "$COMMIT_MESSAGE" =~ "--skip_cypress" ]]; then
+          echo "skip_cypress=true" >> $GITHUB_ENV
+        fi
+        if [[ "$COMMIT_MESSAGE" =~ "--skip_jest" ]]; then
+          echo "skip_jest=true" >> $GITHUB_ENV
+        fi
+    - name: Set up node
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node.version }}
+    - name: Check package-lock.json
+      if: ${{ inputs.lock }}
+      run: test -e package-lock.json
+    - name: Install packages
+      run: npm ci
+    - name: Run Cypress tests PRW
+      if: ${{ env.skip_tests != 'true' && env.skip_cypress != 'true' }}
+      uses: cypress-io/github-action@v6
+      with:
+        build: npm run build
+        start: npm run test:prodprw
+        config-file: prodprw-cypress-config.cjs
+        spec: |
+          cypress/e2e/prw.cy.js
+    - name: Run Cypress tests CN
+      if: ${{ env.skip_tests != 'true' && env.skip_cypress != 'true' }}
+      uses: cypress-io/github-action@v6
+      with:
+            build: npm run build
+            start: npm run test:prodcn
+            config-file: prodcn-cypress-config.cjs
+            spec: |
+              cypress/e2e/cn.cy.js
+    - name: Run Cypress tests ES
+      if: ${{ env.skip_tests != 'true' && env.skip_cypress != 'true' }}
+      uses: cypress-io/github-action@v6
+      with:
+                build: npm run build
+                start: npm run test:prodes
+                config-file: prodes-cypress-config.cjs
+                spec: |
+                  cypress/e2e/es.cy.js
+    - name: Run Jest tests
+      if: ${{ env.skip_tests != 'true' && env.skip_jest != 'true' }}
+      run:  npm run test:test1 -- -u && npm run test:test1 && npm run test:test2 -- -u && npm run test:test2 && npm run test:test3 -- -u && npm run test:test3 && npm run test:test4 -- -u && npm run test:test4
+    - name: Lint the code
+      if: ${{ inputs.lint }}
+      run: npm run lint
+    - name: Build the app and commit dist
+      run: |
+        sed -i '/VITE_APP_PD_APP_TYPE/d' .env
+        echo "VITE_APP_PD_APP_TYPE=${{ matrix.build }}" >> .env
+        test -e dist && rm -rf dist
+        npm run build --max-old-space-size=8192
+    - name: Commit dist main
+      if: ${{ matrix.node.index == 1 && github.ref_name == 'main' }}
+      uses: LongboatPortals/actions-longboat-portals/actions/commit-dist@v1.0.1
+      with:
+        bucket: ${{ secrets.PRW_S3_BUCKET }}
+        prefix: ${{ github.repository }}-${{ matrix.build }}
+        role: ${{ secrets.GITHUBACTIONSROLE }}
+        aws-region: us-east-2
+    - name: Commit dist non-main
+      if: ${{ matrix.node.index == 1 && github.ref_name != 'main' }}
+      uses: LongboatPortals/actions-longboat-portals/actions/commit-dist@v1.0.1
+      with:
+        bucket: ${{ secrets.PRW_S3_BUCKET }}
+        prefix: ${{ github.repository }}-${{ matrix.build }}-test
+        role: ${{ secrets.GITHUBACTIONSROLE }}
+        aws-region: us-east-2
+    - name: Notification success
+      if: ${{ matrix.node.index == 1 && github.ref_name == 'main' }}
+      uses: LongboatPortals/actions-longboat-portals/actions/notification-success@v1.0.2
+      with:
+        slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}
+    - name: Notification failure
+      if: ${{ failure() }}
+      uses: LongboatPortals/actions-longboat-portals/actions/notification-failure@v1.0.2
+      with:
+        slack_bot_token: ${{ secrets.SLACK_BOT_TOKEN }}

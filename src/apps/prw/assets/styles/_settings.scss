@@ -1,0 +1,122 @@
+@import "@/assets/styles/colors.scss";
+/*-- ==========================================================================
+                                    PRW PAGE
+========================================================================== */
+
+/* ++++++++++++ GRADIENT BACKGROUNDS ++++++++++++++ */
+$grad-primary-one: linear-gradient(40deg, color.adjust($primary-color, $lightness: 40%), color.adjust($primary-color, $lightness: 20%), $primary-color);
+$grad-primary-two: linear-gradient(40deg, $primary-color, color.adjust($primary-color, $lightness: 20%), color.adjust($primary-color, $lightness: 30%));
+$grad-primary-two-colour-one: linear-gradient(150deg, color.adjust($primary-color, $lightness: 10%), transparent 35%),
+linear-gradient(330deg, $primary-color, transparent 10%),
+linear-gradient(225deg, $primary-color, color.adjust($primary-color, $lightness: 15%), $primary-color, $primary-color);
+
+$grad-secondary-one: linear-gradient(40deg, color.adjust($secondary-color, $lightness: 40%), color.adjust($secondary-color, $lightness: 20%), $secondary-color);
+$grad-secondary-two: linear-gradient(40deg, $secondary-color, color.adjust($secondary-color, $lightness: 20%), color.adjust($secondary-color, $lightness: 30%));
+$grad-secondary-two-colour-one: linear-gradient(150deg, color.adjust($secondary-color, $lightness: 10%), transparent 35%),
+linear-gradient(330deg, $secondary-color, transparent 10%),
+linear-gradient(225deg, $secondary-color, color.adjust($secondary-color, $lightness: 15%), $secondary-color, $secondary-color);
+
+/* ++++++++++++ Menu Section ++++++++++++++ */
+
+$menu-hamburger-color: $primary-color;
+$menu-panel-bg: $primary-color;
+$menu-item-onhover: color.adjust($primary-color, $lightness: 10%);
+
+/* ++++++++++++ Banner Section ++++++++++++++ */
+
+$deco-color: $accenttwo-color;
+$banner-heading-text-color: $primary-color;
+$banner-body-text-color: $text-color;
+$banner-elig-btn-color: $accent-color;
+
+/* ++++++++++++ Site info Section ++++++++++++++ */
+
+@mixin site-info-wrap-bg {
+    background: $accenttwo-color;
+    background: linear-gradient(169deg, $accenttwo-color 0%, $accenttwo-color 19%, color.adjust($accenttwo-color, $lightness: -15%) 51%, $accenttwo-color 51%, color.adjust($accenttwo-color, $lightness: -15%) 100%);
+    /*
+    background: $secondary-color; // rgba(189, 69, 16, 0.12);
+    background-image: url("../../assets/images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+
+@mixin site-info-icon-bg {
+    background-color: $accenttwo-color;
+    background: linear-gradient(109.61deg, $accenttwo-color 19.1%, color.adjust($accenttwo-color, $lightness: -5%) 74.62%);
+}
+
+
+/* ++++++++++++ Study Timeline Section ++++++++++++++ */
+
+$tim-section-bg-color: #fff;
+$timline-heading-color: $primary-color;
+$timline-img-bg-color: $primary-color;
+$timeline-section-bg-color: color.adjust($primary-color, $lightness: 70%);
+$timeline-item-bg-color: color.adjust($primary-color, $lightness: 70%);
+/* ++++++++++++ Eligibility Section & Patient Connect Form ++++++++++++++ */
+
+$elig-section-bg-color: white;
+$elig-indicator-bg-color: $primary-color;
+$elig-select-btn-color-selected: $primary-color;
+$elig-select-btn-color-onfocus: $primary-color;
+$elig-select-btn-color-onhover: color.adjust($primary-color, $lightness: -5%);
+$elig-check-btn-color: $accent-color;
+$pc-input-label-color: $accenttwo-color;
+$pc-consent-box-color: $primary-color;
+$pc-submit-btn-color: $accent-color;
+
+/* ++++++++++++ Study Center Section ++++++++++++++ */
+
+$study-center-btn-color: $accent-color;
+$study-center-location-head-color: $accent-color;
+
+/* ++++++++++++ FAQs Section ++++++++++++++ */
+
+$faq-section-bg-color: $gray;
+$faq-btn-color: $accent-color;
+$faq-hr-color: color.adjust($primary-color, $lightness: 60%);
+$faq-hr-onopen-color: $accent-color;
+$faq-box-shadow: $box-shadow;
+$faq-questions-back: #fcfcfc ;
+
+/* ++++++++++++ Share Study Section ++++++++++++++ */
+
+$share-section-bg-color: $grad-primary-two-colour-one;
+$share-btn-color: $accent-color;
+
+
+/* ++++++++++++ SVGS ++++++++++++++ */
+$atsd-svg-primary-color: $primary-color;
+$atsd-svg-secondary-color: $secondary-color;
+
+$cn-svg-primary-color: $primary-color;
+$cn-svg-secondary-color: $secondary-color;
+
+$fas-svg-primary-color: $primary-color;
+$fas-svg-secondary-color: $secondary-color;
+
+$faq-svg-primary-color: $primary-color;
+
+$amieligble-svg-primary-color: $primary-color;
+$amieligble-svg-secondary-color: $secondary-color;
+
+$timeline-svg-primary-color: $primary-color;
+$timeline-svg-secondary-color: $secondary-color;
+
+$pr-svg-primary-color: $primary-color;
+$pr-svg-secondary-color: $secondary-color;
+
+$pppass-svg-primary-color: $primary-color;
+$pppass-svg-secondary-color: $secondary-color;
+
+$spv-svg-primary-color: $primary-color;
+$spv-svg-secondary-color: $secondary-color;
+
+$success-svg-primary-color: $primary-color;
+$success-svg-secondary-color: $secondary-color;
+
+$failure-svg-primary-color: $primary-color;
+$failure-svg-secondary-color: $secondary-color;

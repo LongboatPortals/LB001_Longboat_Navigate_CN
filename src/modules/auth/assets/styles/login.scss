@@ -1,0 +1,210 @@
+@import "colors.scss";
+@import "defaults.scss";
+
+/* ================= Mobile-first styles  ===================== */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    &__form-logo {
+        margin-bottom: 20px;
+    }
+    &__logo {
+        @include login__logo;
+    }
+    &__form-logo {
+        @include login__form-logo;
+    }
+    &__logo-wrapper {
+        @include login__logo-wrapper-bg-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 16px 40px;
+        &--bg {
+            @include login__logo-wrapper-bg-image;
+        }
+    }
+    &__form-wrapper {
+        @include login__form-wrapper;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__form {
+        text-align: left;
+        padding: 32px 16px 16px;
+        //min-width: 320px;
+    }
+    &__form-heading {
+        color: $login_welcome_title;
+        font-size: 2.9rem;
+        letter-spacing: 0;
+        font-weight: 400;
+        line-height: 50px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    &__form-text {
+        color: $login_welcome_text;
+        margin-bottom: 8px;
+    }
+    &__password-input {
+        margin: 8px 0 0;
+        padding: 15px;
+        background: #fff;
+        border: 1px solid #e8e8e8;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 100%;
+        &--error {
+            border-color: $login-error-input-border-color;
+        }
+        &::-webkit-input-placeholder {
+            /* Edge */
+            color: $login-text-color;
+            //font-style: italic;
+            letter-spacing: 1px;
+        }
+        &:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: $login-text-color;
+            // font-style: italic;
+            letter-spacing: 1px;
+        }
+        &::placeholder {
+            color: $login-text-color;
+            // font-style: italic;
+            letter-spacing: 1px;
+        }
+    }
+    &__password-input-label {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 16px;
+    }
+}
+
+.lang-dropdown-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 32px;
+    right: 16px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    opacity: 1;
+}
+
+.login-lang-dropdown {
+    // margin-right: 20px;
+}
+
+.d-login-alert-error {
+    color: $login-error-text-color;
+    padding: 10px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding: 10px 10px 0;
+}
+
+
+.login-copyright .copyright__text {
+    color: $login-copyright-text-color;
+}
+
+
+.login-lang-dropdown{
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.login-button {
+    width: 100%;
+    margin-top: 1.25rem;
+}
+
+.login-copyright {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1260px;
+    padding: 0 16px;
+    margin-bottom: 30px;
+    font-size: 0.85rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .login-copyright {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 30px;
+        left: auto;
+    }
+}
+
+
+/* ================= Screen size 1000px and above styles  ===================== */
+
+@media only screen and (min-width: 1000px) {
+    .lang-dropdown-wrapper {
+        right: 40px;
+    }
+    .login {
+        flex-direction: row;
+        &__form-wrapper {
+            align-items: center;
+            width: 0; // for animation
+        }
+        &__form {
+            width: 432px; //350px;
+        }
+        &__logo-wrapper {
+            width: 50%;
+        }
+        &__logo-wrapper {
+            //height: 100vh;
+            top: 40px;
+            padding: 0 10px;
+        }
+    }
+}
+
+
+/*-- ==========================================================================
+                                    ANIMATION ⬇
+==========================================================================  */
+
+.login {
+    &__logo,
+    &__logo-wrapper {
+        transition: all 0.6s;
+        transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+    }
+}
+
+.lang-dropdown-wrapper {
+    transition: opacity 0.5s;
+    transition-delay: 0.2s;
+}
+
+.animate {
+    .lang-dropdown-wrapper {
+        opacity: 0;
+    }
+    .login {
+        &__logo {
+            @include animated-login__logo;
+        }
+        &__logo-wrapper {
+            width: 100%;
+        }
+        &__form-wrapper {
+            display: none;
+        }
+    }
+}

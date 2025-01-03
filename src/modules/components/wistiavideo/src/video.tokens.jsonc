@@ -1,0 +1,51 @@
+{
+  "video": {
+    "icon": {
+      "bg-color": {
+        "default": {
+          "value": "white"
+        },
+        "onhover": {
+          "value": "{color.primary.100}"
+        }
+      },
+      "color": {
+        "default": {
+          "value": "{color.primary.100}"
+        },
+        "onhover": {
+          "value": "white"
+        }
+      }
+    },
+    "overlay": {
+      "bg-color": {
+        "onhover": {
+          "value": "{color.primary.100}"
+        }
+      }
+    },
+    "strip": {
+      "color": {
+        "value": "{color.primary.100}"
+      },
+      "height": {
+        "value": "16px"
+      }
+    },
+    "box-shadow": {
+      "value": "-1px 1px 9px 2px rgba(0, 0, 0, 0.1)"
+    },
+    "info": {
+      "bg-color": {
+        "value": "white"
+      },
+      "border-radius": {
+        "value": "{border.radius.xlarge}"
+      },
+      "box-shadow": {
+        "value": "-1px 1px 9px 2px rgba(0, 0, 0, 0.1)"
+      }
+    }
+  }
+}

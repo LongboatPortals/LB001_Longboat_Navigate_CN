@@ -1,0 +1,17 @@
+{
+  "name": "@pd-ui-master/consent",
+  "version": "0.0.1",
+  "description": "This is a consent module for our products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "consent",
+    "cookie",
+    "privacy",
+    "gdpr"
+  ],
+  "author": "longboat portal",
+  "license": "ISC"
+}

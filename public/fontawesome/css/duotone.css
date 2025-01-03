@@ -1,0 +1,51 @@
+:root, :host {
+  --fa-style-family-duotone: 'Font Awesome 6 Duotone';
+  --fa-font-duotone: normal 900 1em/1 'Font Awesome 6 Duotone'; }
+
+@font-face {
+  font-family: 'Font Awesome 6 Duotone';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-duotone-900.woff2") format("woff2"), url("../webfonts/fa-duotone-900.ttf") format("truetype"); }
+
+.fad,
+.fa-duotone {
+  position: relative;
+  font-weight: 900;
+  letter-spacing: normal; }
+
+.fad::before,
+.fa-duotone::before {
+  position: absolute;
+  color: var(--fa-primary-color, inherit);
+  opacity: var(--fa-primary-opacity, 1); }
+
+.fad::after,
+.fa-duotone::after {
+  color: var(--fa-secondary-color, inherit);
+  opacity: var(--fa-secondary-opacity, 0.4); }
+
+.fa-swap-opacity .fad::before,
+.fa-swap-opacity .fa-duotone::before,
+.fad.fa-swap-opacity::before,
+.fa-duotone.fa-swap-opacity::before {
+  opacity: var(--fa-secondary-opacity, 0.4); }
+
+.fa-swap-opacity .fad::after,
+.fa-swap-opacity .fa-duotone::after,
+.fad.fa-swap-opacity::after,
+.fa-duotone.fa-swap-opacity::after {
+  opacity: var(--fa-primary-opacity, 1); }
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff); }
+
+.fad.fa-stack-1x, .fad.fa-stack-2x,
+.fa-duotone.fa-stack-1x, .fa-duotone.fa-stack-2x {
+  position: absolute; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random characters that represent icons */
+.fad.fa-angle-down::after,.fa-duotone.fa-angle-down::after{ content: "\f107\f107"; }.fad.fa-calendar-plus::after,.fa-duotone.fa-calendar-plus::after{ content: "\f271\f271"; }.fad.fa-chain::after,.fa-duotone.fa-chain::after{ content: "\f0c1\f0c1"; }.fad.fa-circle-xmark::after,.fa-duotone.fa-circle-xmark::after{ content: "\f057\f057"; }.fad.fa-close::after,.fa-duotone.fa-close::after{ content: "\f00d\f00d"; }.fad.fa-earth::after,.fa-duotone.fa-earth::after{ content: "\f57d\f57d"; }.fad.fa-earth-america::after,.fa-duotone.fa-earth-america::after{ content: "\f57d\f57d"; }.fad.fa-earth-americas::after,.fa-duotone.fa-earth-americas::after{ content: "\f57d\f57d"; }.fad.fa-envelope::after,.fa-duotone.fa-envelope::after{ content: "\f0e0\f0e0"; }.fad.fa-globe-americas::after,.fa-duotone.fa-globe-americas::after{ content: "\f57d\f57d"; }.fad.fa-home::after,.fa-duotone.fa-home::after{ content: "\f015\f015"; }.fad.fa-home-alt::after,.fa-duotone.fa-home-alt::after{ content: "\f015\f015"; }.fad.fa-home-lg-alt::after,.fa-duotone.fa-home-lg-alt::after{ content: "\f015\f015"; }.fad.fa-house::after,.fa-duotone.fa-house::after{ content: "\f015\f015"; }.fad.fa-link::after,.fa-duotone.fa-link::after{ content: "\f0c1\f0c1"; }.fad.fa-location-dot::after,.fa-duotone.fa-location-dot::after{ content: "\f3c5\f3c5"; }.fad.fa-magnifying-glass::after,.fa-duotone.fa-magnifying-glass::after{ content: "\f002\f002"; }.fad.fa-map-marker-alt::after,.fa-duotone.fa-map-marker-alt::after{ content: "\f3c5\f3c5"; }.fad.fa-multiply::after,.fa-duotone.fa-multiply::after{ content: "\f00d\f00d"; }.fad.fa-phone::after,.fa-duotone.fa-phone::after{ content: "\f095\f095"; }.fad.fa-remove::after,.fa-duotone.fa-remove::after{ content: "\f00d\f00d"; }.fad.fa-search::after,.fa-duotone.fa-search::after{ content: "\f002\f002"; }.fad.fa-times::after,.fa-duotone.fa-times::after{ content: "\f00d\f00d"; }.fad.fa-times-circle::after,.fa-duotone.fa-times-circle::after{ content: "\f057\f057"; }.fad.fa-users::after,.fa-duotone.fa-users::after{ content: "\f0c0\f0c0"; }.fad.fa-xmark::after,.fa-duotone.fa-xmark::after{ content: "\f00d\f00d"; }.fad.fa-xmark-circle::after,.fa-duotone.fa-xmark-circle::after{ content: "\f057\f057"; }
+

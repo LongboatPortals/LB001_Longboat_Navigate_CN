@@ -1,0 +1,127 @@
+@import "fonts.scss";
+@import "colors.scss";
+@import "root.scss";
+@import "login.scss";
+@import "./components/video.scss";
+@import "./components/button.scss";
+
+/* Basic resets */
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #4e5157;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+    /* hack for Chrome browser on Windows*/
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1.5;
+}
+
+body {
+    font-size: 1.1rem;
+    margin: 0;
+    /*
+    @media only screen and (max-width: 767px) {
+        font-size: 1rem;
+    }
+        */
+}
+
+button:focus,
+select:focus,
+input:focus {
+    outline: 0;
+    box-shadow: 0 0 1px 2px #5b9dd9;
+}
+
+
+/* Typography for Lato */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 21px;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 1.1rem;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+select,
+button {
+    font-size: 0.93rem;
+}
+
+// //// 
+.ui-header-max-width {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.ui-max-width {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.ui-section {
+    padding: 32px 16px;
+    @media screen and (min-width: 767px) {
+        padding: 64px 16px;
+    }
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.block-center {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
+
+html:lang(hu) .hu-text {
+    display: initial;
+}

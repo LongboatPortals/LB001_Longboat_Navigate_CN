@@ -1,0 +1,76 @@
+/*-- ==========================================================================
+                                    LOGIN PAGE
+========================================================================== */
+
+$login_welcome_title: $login-primary-color !default;
+$login_welcome_text: $login-text-color !default;
+// login error box
+$login-error-text-color: $login-error-alert !default;
+$login-error-input-border-color: $login-error-alert !default;
+// copyright text
+$login-copyright-text-color: $login-text-color !default;
+
+$login_logo-width-default: 230px !default;
+$login_logo-width-forScreenMin1000: 350px !default;
+$login_logo-min-width-forScreenMin1000: 350px !default;
+@mixin login__logo {
+    width: 230px $login_logo-width-default;
+    @media only screen and (min-width: 1000px) {
+        width: $login_logo-width-forScreenMin1000;
+        min-width: $login_logo-min-width-forScreenMin1000;
+    }
+}
+
+
+$animated-login__logo-width: 200px !default;
+$animated-login__logo-min-width: 200px !default;
+@mixin animated-login__logo {
+    width: $animated-login__logo-width;
+    min-width: $animated-login__logo-min-width;
+}
+
+
+// this applies if the login page is showing the background image
+$login__logo-wrapper-bg: rgba($login-primary-color, 0.12) !default;
+$login__logo-wrapper-bg-image: url("@/assets/images/bg2.png") !default;
+$login__logo-wrapper-bg-position: center !default;
+$login__logo-wrapper-bg-repeat: no-repeat !default;
+$login__logo-wrapper-bg-size: cover !default;
+@mixin login__logo-wrapper-bg-image {
+    background: $login__logo-wrapper-bg; // fall back bg
+    background-image: $login__logo-wrapper-bg-image;
+    background-position: $login__logo-wrapper-bg-position;
+    background-repeat: $login__logo-wrapper-bg-repeat;
+    background-size: $login__logo-wrapper-bg-size;
+}
+
+
+// this applies to the logo in the login form -- for style 2 ie when the login page is showing the background image
+$login__form-logo-width-default: 200px !default;
+$login__form-logo-width-forScreenMin1000: 250px !default;
+$login__form-logo-min-width-forScreenMin1000: 250px !default;
+@mixin login__form-logo  {
+    width: $login__form-logo-width-default;
+    @media only screen and (min-width: 1000px) {
+        width: $login__form-logo-width-forScreenMin1000;
+        min-width: $login__form-logo-min-width-forScreenMin1000;
+    }
+} 
+
+
+
+// this applies if the login page is showing only a logo and a background color
+$login__logo-wrapper-bg-color: rgba($login-primary-color, 0.12) !default;
+$login__logo-wrapper-bg-color-gradient: rgba($login-primary-color, 0.12) !default; // linear-gradient(90deg, rgba(22,81,114,1) 3%, rgba(22,81,114,1) 100%) !default;
+@mixin login__logo-wrapper-bg-color {
+    background: $login__logo-wrapper-bg-color;
+    background: $login__logo-wrapper-bg-color-gradient;
+}
+
+// this sets a background for the login section
+$login__form-wrapper-bg-color: rgba($login-primary-color, 0.04) !default;
+$login__form-wrapper-bg-color-gradient: rgba($login-primary-color, 0.04) !default; //linear-gradient(90deg, rgba(22,81,114,1) 3%, rgba(22,81,114,1) 100%) !default;
+@mixin login__form-wrapper {
+    background: $login__form-wrapper-bg-color;
+    background: $login__form-wrapper-bg-color-gradient;
+}

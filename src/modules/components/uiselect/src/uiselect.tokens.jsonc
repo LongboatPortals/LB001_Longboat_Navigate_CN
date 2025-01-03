@@ -1,0 +1,38 @@
+{
+  "select": {
+    "border": {
+      "radius": {
+        "value": "{border.radius.medium}"
+      },
+      "width": {
+        "value": "{border.width.thin}"
+      },
+      "color": {
+        "value": "{color.black.70}"
+      }
+    },
+    "padding": {
+      "top": {
+        "value": "{spacing.02}"
+      },
+      "bottom": {
+        "value": "{spacing.02}"
+      },
+      "left": {
+        "value": "{spacing.02}"
+      },
+      "right": {
+        "value": "{spacing.02}"
+      }
+    },
+    "bg-color": {
+      "value": "white"
+    },
+    "text-color": {
+      "value": "{color.black.80}"
+    },
+    "caret-color": {
+      "value": "{color.black.90}"
+    }
+  }
+}

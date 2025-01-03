@@ -1,0 +1,255 @@
+<template>
+    <section class="prw-headmast ui-section">
+        <div class="v2-flxrow ui-header-max-width">
+            <div class="v2-flxcol">
+                <!--<p class="headmast__banner-header">{{t('prw.ats_banner_text')}}</p>-->
+                <p class="prw-headmast__banner-text">{{t('prw.ats_banner_subtext')}}</p>
+                <leftee-layout class="banner-btn">
+                    <ui-abutton id="pd-prw-aboutlink" type="a" href="#js-about" class=" ux-btn ux-btn--tertiary [ mb-3 ]" v-smooth-scroll>{{t('prw.nav_one')}}</ui-abutton>
+                    <ui-abutton class="ux-cta-btn ui-cta-btn ux-btn ux-btn--tertiary" type="a" @click="emitEligibilityBtnEvent">{{ t('prw.cta-btn') }}</ui-abutton>
+                </leftee-layout>
+            </div>
+        </div>
+    </section>
+    </template>
+    
+    <script setup>
+    import LefteeLayout from '@/modules/components/layout/LefteeLayout.vue'
+    import UiAbutton from '@/modules/components/uibutton/src/UiButton.vue'
+    import { useI18n } from 'vue-i18n';
+    
+    const { t } = useI18n();
+    
+    const emit = defineEmits(['eligibilityBtnEvent']);
+    
+    const emitEligibilityBtnEvent = () => {
+        emit('eligibilityBtnEvent')
+    }
+    
+    </script>
+    
+    <style lang="scss" scoped>
+    @import "../assets/styles/_settings.scss";
+    .prw-headmast {
+        background: $secondary-color;
+        /*
+        background-image: url("~@/assets/images/bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        */
+        padding-top: 130px;
+
+    
+        &__banner-header {
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 1.2em;
+            letter-spacing: 1px;
+            color: $banner-heading-text-color;
+            text-align: left;
+            margin: 0;
+            max-width: 550px;
+    
+            @media screen and (min-width: 767px) {
+                font-size: 48px;
+                line-height: 60px;
+            }
+        }
+    
+        &__banner-text {
+            text-align: left;
+            font-size: 20px;
+            line-height: 1.4;
+            letter-spacing: 0.354167px;
+            color: $banner-body-text-color;
+            margin: 24px 0;
+            max-width: 650px;
+            font-weight: 300;
+    
+            @media screen and (min-width: 767px) {
+                font-size: 44px;
+                line-height: 1.3;
+            }
+        }
+    
+        &__banner-image {
+            border-radius: 20px;
+        }
+    }
+    
+    .v2-flxrow {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .v2-flxcol {
+        margin: 1rem .5em;
+        z-index: 1;
+    }
+    
+    .v2-flxcol:nth-child(2) {
+        position: relative;
+    }
+    
+    @media screen and (min-width: 767px) {
+        .v2-flxrow {
+            flex-direction: row;
+        }
+    
+        .v2-flxcol:first-child {
+            flex-basis: 60%;
+        }
+    
+        .v2-flxcol:nth-child(2) {
+            flex-basis: 40%;
+        }
+    }
+    
+    .ui-abt {
+    
+        &-deco1 {
+            position: absolute;
+            top: -7%;
+            left: -15%;
+            opacity: .4;
+    
+            .rectangle {
+                height: 88px;
+                width: 221px;
+                background-color: #A8B1BD;
+                border-radius: 70px;
+    
+                @media screen and (min-width: 1000px) {
+                    height: 150px;
+                    width: 300px;
+                }
+            }
+        }
+    
+        &-deco2 {
+            background: $deco-color;
+            padding: 4px;
+            width: 60px;
+            box-shadow: 8px 8px 49px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            position: absolute;
+            bottom: -15px;
+            left: -20px;
+            z-index: 9;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+    
+            .ui-circle {
+                height: 18px;
+                width: 18px;
+                background-color: #F5F5F5;
+                border-radius: 50%;
+            }
+    
+            .ui-rec {
+                width: 54px;
+                height: 8px;
+                background-color: #F5F5F5;
+                border-radius: 30px;
+                margin-top: 8px;
+            }
+    
+            .ui-rec:nth-child(3) {
+                width: 35px;
+                margin-bottom: 16px;
+            }
+    
+            @media screen and (min-width: 1000px) {}
+        }
+    
+        &-deco4 {
+            background: white;
+            padding: 4px 8px;
+            width: 90px;
+            box-shadow: 8px 8px 49px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            position: absolute;
+            bottom: 71px;
+            right: -16px;
+            z-index: 9;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+    
+            @media screen and (min-width: 767px) {
+                bottom: 145px;
+                right: -24px;
+            }
+    
+            .ui-rec {
+                width: 75%;
+                height: 8px;
+                background-color: #A8B1BD;
+                border-radius: 30px;
+                margin-top: 8px;
+            }
+    
+            .ui-rec:nth-child(2) {
+                width: 50%;
+                margin-bottom: 8px;
+            }
+    
+            .ui-circle {
+                height: 14px;
+                width: 14px;
+                background-color: $deco-color;
+                border-radius: 50%;
+            }
+    
+        }
+    
+        &-deco3 {
+            position: absolute;
+            top: 20%;
+            right: -24px;
+    
+            .ui-circle {
+                height: 80px;
+                width: 80px;
+                background-color: $deco-color;
+                border-radius: 50%;
+            }
+    
+        }
+    
+    }
+    .elig-btn {
+    
+            background-color: $banner-elig-btn-color;
+            color:rgb(146, 146, 146);
+    
+            &:hover{
+                background-color: color.adjust($banner-elig-btn-color, $lightness: -10%);
+            }
+    }
+
+    
+    .main-img {
+        position: relative;
+    }
+    
+    .banner-btn{
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        width: 300px;
+        margin-top: 50px;
+        justify-content: space-between;
+        align-items: stretch;
+        text-align: center;
+
+        @media screen and (min-width: 767px) {
+            height: 92px;
+            width: 400px;
+        }
+    }
+    </style>
+    

@@ -1,0 +1,519 @@
+---
+angle-down:
+  aliases:
+    unicodes:
+      composite:
+        - '2304'
+      secondary:
+        - 10f107
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.5.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: Angle Down
+  search:
+    terms:
+      - Down Arrowhead
+      - arrow
+      - caret
+      - download
+      - expand
+      - insert
+  unicode: f107
+  voted: false
+calendar-plus:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f271
+  changes:
+    - 4.4.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: duotone
+        style: solid
+  label: Calendar Plus
+  search:
+    terms:
+      - add
+      - calendar
+      - create
+      - date
+      - day
+      - event
+      - month
+      - new
+      - positive
+      - schedule
+      - time
+      - when
+      - year
+  unicode: f271
+  voted: false
+circle-xmark:
+  aliases:
+    names:
+      - times-circle
+      - xmark-circle
+    unicodes:
+      composite:
+        - f05c
+      secondary:
+        - 10f057
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: regular
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: Circle Xmark
+  search:
+    terms:
+      - close
+      - cross
+      - destroy
+      - exit
+      - incorrect
+      - notice
+      - notification
+      - notify
+      - problem
+      - uncheck
+      - wrong
+      - x
+  unicode: f057
+  voted: false
+earth-americas:
+  aliases:
+    names:
+      - earth
+      - earth-america
+      - globe-americas
+    unicodes:
+      composite:
+        - 1f30e
+      secondary:
+        - 10f57d
+  changes:
+    - 5.1.0
+    - 5.11.0
+    - 5.11.1
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: duotone
+        style: solid
+  label: Earth Americas
+  search:
+    terms:
+      - all
+      - america
+      - country
+      - earth
+      - global
+      - globe
+      - gps
+      - language
+      - localize
+      - location
+      - map
+      - online
+      - place
+      - planet
+      - translate
+      - travel
+      - world
+  unicode: f57d
+  voted: false
+envelope:
+  aliases:
+    unicodes:
+      composite:
+        - 1f582
+        - '2709'
+        - f003
+      secondary:
+        - 10f0e0
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Envelope
+  search:
+    terms:
+      - Back of Envelope
+      - e-mail
+      - email
+      - envelope
+      - letter
+      - mail
+      - message
+      - newsletter
+      - notification
+      - offer
+      - support
+  unicode: f0e0
+  voted: false
+house:
+  aliases:
+    names:
+      - home
+      - home-alt
+      - home-lg-alt
+    unicodes:
+      composite:
+        - 1f3e0
+        - f80a
+        - f80c
+      primary:
+        - f80a
+        - f80c
+      secondary:
+        - 10f015
+        - 10f80a
+        - 10f80c
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.7.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: House
+  search:
+    terms:
+      - abode
+      - building
+      - home
+      - house
+      - main
+      - residence
+  unicode: f015
+  voted: false
+link:
+  aliases:
+    names:
+      - chain
+    unicodes:
+      composite:
+        - 1f517
+      secondary:
+        - 10f0c1
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: duotone
+        style: solid
+  label: Link
+  search:
+    terms:
+      - attach
+      - attachment
+      - chain
+      - connect
+      - lin
+      - link
+  unicode: f0c1
+  voted: false
+location-dot:
+  aliases:
+    names:
+      - map-marker-alt
+    unicodes:
+      secondary:
+        - 10f3c5
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Location Dot
+  search:
+    terms:
+      - address
+      - coordinates
+      - destination
+      - gps
+      - localize
+      - location
+      - map
+      - navigation
+      - paper
+      - pin
+      - place
+      - point of interest
+      - position
+      - route
+      - travel
+  unicode: f3c5
+  voted: false
+magnifying-glass:
+  aliases:
+    names:
+      - search
+    unicodes:
+      composite:
+        - 1f50d
+      secondary:
+        - 10f002
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: duotone
+        style: solid
+  label: Magnifying Glass
+  search:
+    terms:
+      - bigger
+      - enlarge
+      - equipment
+      - find
+      - glass
+      - inspection
+      - magnifier
+      - magnify
+      - magnifying
+      - magnifying glass tilted left
+      - preview
+      - search
+      - tool
+      - zoom
+  unicode: f002
+  voted: false
+phone:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4de
+        - 1f57b
+      secondary:
+        - 10f095
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Phone
+  search:
+    terms:
+      - Left Hand Telephone Receiver
+      - call
+      - earphone
+      - number
+      - phone
+      - receiver
+      - support
+      - talking
+      - telephone
+      - telephone receiver
+      - voice
+  unicode: f095
+  voted: false
+users:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0c0
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.0.3
+    - 5.0.11
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: duotone
+        style: solid
+  label: Users
+  search:
+    terms:
+      - employee
+      - together
+      - uer
+      - users-people
+  unicode: f0c0
+  voted: false
+xmark:
+  aliases:
+    names:
+      - close
+      - multiply
+      - remove
+      - times
+    unicodes:
+      composite:
+        - 1f5d9
+        - '2715'
+        - '2716'
+        - 274c
+        - d7
+      secondary:
+        - 10f00d
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.0.13
+    - 5.11.0
+    - 5.11.1
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Xmark
+  search:
+    terms:
+      - Cancellation X
+      - Multiplication Sign
+      - Multiplication X
+      - cancel
+      - close
+      - cross
+      - cross mark
+      - error
+      - exit
+      - incorrect
+      - mark
+      - multiplication
+      - multiply
+      - notice
+      - notification
+      - notify
+      - problem
+      - sign
+      - uncheck
+      - wrong
+      - x
+      - ×
+  unicode: f00d
+  voted: false

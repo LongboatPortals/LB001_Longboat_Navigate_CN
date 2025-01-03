@@ -1,0 +1,29 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 17 Oct 2022 10:33:23 GMT
+ */
+
+:root {
+  --ux-color-background: #121212;
+  --ux-color-testing: #000;
+  --ux-color-white: #ffffff;
+  --ux-color-black-10: #e6e6e6;
+  --ux-color-black-20: #cccccc;
+  --ux-color-black-30: #b3b3b3;
+  --ux-color-black-40: #999999;
+  --ux-color-black-50: #808080;
+  --ux-color-black-60: #666666;
+  --ux-color-black-70: #4d4d4d;
+  --ux-color-black-80: #333333;
+  --ux-color-black-90: #191919;
+  --ux-color-black-100: #000000;
+  --ux-color-primary-90: #458fd4;
+  --ux-color-primary-100: #3082ce;
+  --ux-color-primary-110: #2b75ba;
+  --ux-color-secondary-90: #55c392;
+  --ux-color-secondary-100: #41b883;
+  --ux-color-secondary-110: #3caa79;
+  --ux-color-tertiary-90: #ff1919;
+  --ux-color-tertiary-100: #ff0000;
+  --ux-color-tertiary-110: #e60000;
+}

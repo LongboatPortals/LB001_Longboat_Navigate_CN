@@ -1,0 +1,27 @@
+{
+  "name": "@pd-ui-master/login-module",
+  "version": "0.2.14",
+  "description": "This is a login module for our products (CN, PRW and ES). Written in Vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LongboatPortals/login-module.git"
+  },
+  "keywords": [
+    "login",
+    "authentication"
+  ],
+  "author": "longboat portal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LongboatPortals/login-module/issues"
+  },
+  "homepage": "https://github.com/LongboatPortals/login-module#readme",
+  "dependencies": {
+    "@pd-ui-master/components": "^0.2.54",
+    "js-cookie": "^3.0.1"
+  }
+}

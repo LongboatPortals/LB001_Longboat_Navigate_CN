@@ -1,0 +1,51 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      "introduction",
+      [
+        "tokens",
+        [
+          "typography",
+          "colors",
+          "spacing",
+          "elevation",
+          "border-radius",
+          "transition",
+          "z-index",
+          "theme",
+          "border"
+        ]
+      ],
+      [
+        "modules",
+        [
+          "i18n",
+          "common"
+        ]
+      ],
+      [
+        "components",
+        [
+          "icon",
+          "uibutton",
+          "copyrightlabel",
+          "uiselect",
+          "wistiavideo",
+          "privacypolicylink",
+          "consentmodal"
+        ]
+      ],
+      [
+        "infrastructure",
+        [
+          "doc-layout",
+          "types"
+        ]
+      ]
+    ]
+  },
+  "doc": {
+    "markdownEngine": "vue"
+  }
+}
