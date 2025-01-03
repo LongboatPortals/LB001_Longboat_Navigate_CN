@@ -23,7 +23,7 @@ export const passwords = [
    
     {
         key: "pass", // key used for storing this password in cookie
-        value: "Longboat!", // password
+        value: "longboat",, // password
         toRoute: "/", // go to this route/url after successful authentication
     },
     {
@@ -55,8 +55,8 @@ export const japanPasswords = [{
 //Pendo Analytics
 export const pendoKey = '055e0a8b-b58d-43b8-6bc3-991ad9ea3974';
 export const sponsorName = "Longboat";
-export const studyURL = "singleAppTemplate.longboat.com";
-export const studyId = "LBT009";
+export const studyURL = "navig.longboat.com";
+export const studyId = "LB001";
 export const pendoAppType = appType; //"CN/PRW/ES";
 export const pendoAccountName = studyId + '_' + pendoAppType;
 
